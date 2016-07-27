@@ -1,11 +1,55 @@
 body {
     font-family: "Lusitana", serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #566b78;
 }
 
 h1, h2, h3,
 h4, h5, h6 {
     font-family: "Ubuntu", sans-serif;
     font-weight: 300;
+    margin-top: 1em;
+    padding-top: 1em;
+    color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+article {
+    padding-bottom: 4em;
+}
+
+/**
+* Default
+*/
+
+.site-wrapper {
+    margin: 0 auto;
+    max-width: 50em;
+}
+
+/**
+* Post
+*/
+
+.post-header {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    color: #333;
+}
+
+.post-header h2 {
+    margin: 0;
+    padding-top: 0;
+    text-transform: uppercase;
+}
+
+.post-header a {
+    text-transform: uppercase;
 }
 
 .black-thumb-nav {
