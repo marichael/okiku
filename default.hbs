@@ -24,14 +24,13 @@
     {{ghost_head}}
 </head>
 <body class="{{body_class}}">
-    <h1>{{ @blog.title }}</h1>
-    <h1>TESTING</h1>
-    <p>some random text here</p>
-
-    {{!-- placehodler for navigation left bar --}}
+    {{!-- placeholder for navigation left bar --}}
     {{navigation}}
 
     <div class="site-wrapper">
+      <h1>{{ @blog.title }}</h1>
+      <p>some random text here</p>
+
         {{{body}}}
 
         {{!-- The tiny footer at the very bottom --}}
